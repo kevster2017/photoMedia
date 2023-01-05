@@ -1,0 +1,20 @@
+=> [34;4mApp\Models\Profile[39;24m {#4572
+     [34mtitle[39m: "[32mCool Title[39m",
+     [34mdescription[39m: "[32mDescription[39m",
+     [34muser_id[39m: [35m1[39m,
+     [34mupdated_at[39m: "[32m2022-12-12 16:39:29[39m",
+     [34mcreated_at[39m: "[32m2022-12-12 16:39:29[39m",
+     [34mid[39m: [35m1[39m,
+     [34muser[39m: [34;4mApp\Models\User[39;24m {#4584
+       [34mid[39m: [35m1[39m,
+       [34mname[39m: "[32mKev[39m",
+       [34musername[39m: "[32mkevster[39m",
+       [34memail[39m: "[32mkev@gmail.com[39m",
+       [34memail_verified_at[39m: [36mnull[39m,
+       #[33mpassword[39m: "[32m$2y$10$0N4ejFsc5oKGspq.DE6yg.ah7BaDnG7Fdlg4qOdDwMhKP/mWtXE.q[39m",
+       #[33mremember_token[39m: [36mnull[39m,
+       [34mcreated_at[39m: "[32m2022-12-12 16:19:17[39m",
+       [34mupdated_at[39m: "[32m2022-12-12 16:19:17[39m",
+     },
+   }
+

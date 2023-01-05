@@ -1,3 +1,41 @@
+# Social Media Clone
+
+This web application covers the basic functionality of the popular social networking service Instagram.
+
+## Description
+The application will allow a user to register an account and create their profile. A welcome email is sent to the new user welcoming them to the application. When created, the user can upload images to the application database, and display in their browser.
+
+In addition to this, the user can also follow other user's profiles, allowing them to view the index of the posts from the users that they are following. Each post can also be viewed individually.
+
+## Build
+This application was developed in Visual Studio Code using Laravel 9 and Bootstrap 5.2.
+Docker Desktop was used to run the application. 
+Mailtrap used to simulate the user's mailbox.
+
+## Features
+* Authentication - Registration and Login
+* Welcome user email
+* Validation
+* Error messages
+* Image Upload
+* Middleware
+
+## Licence
+Copyright 2022 Kevin O'Kane
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
