@@ -1,4 +1,4 @@
-# Social Media Clone
+# Social Media Clone - Kevstagram
 
 This web application covers the basic functionality of the popular social networking service Instagram.
 
@@ -11,6 +11,7 @@ In addition to this, the user can also follow other user's profiles, allowing th
 This application was developed in Visual Studio Code using Laravel 9 and Bootstrap 5.2.
 Docker Desktop was used to run the application. 
 Mailtrap used to simulate the user's mailbox.
+TablePlus used to display the MySQL database. 
 
 ## Features
 * Authentication - Registration and Login
