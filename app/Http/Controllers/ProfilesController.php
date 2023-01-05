@@ -35,9 +35,23 @@ class ProfilesController extends Controller
             }
         );
 
+
+        
+        $followingCount = Cache::remember(
+            'count.following.' . $user->id,
+            now()->addSeconds(30),
+            function () use ($user) {
+                return $user->follows->count();
+            }
+        );
+
+        
+
+/*
         $followingCount = DB::table('follows')
             ->where('user_id', auth()->user()->id)
             ->count();
+          */
 
         return view('profiles.index', compact('user', 'postCount', 'followersCount', 'followingCount'));
 
